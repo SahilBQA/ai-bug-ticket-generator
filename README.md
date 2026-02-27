@@ -4,7 +4,7 @@ A specialized productivity tool designed for **Quality Assurance Engineers** and
 
 ## 🔗 Live Demo
 
-**Try it now without any installation:** [AI Bug Ticket Generator on AI Studio](https://ai.studio/apps/406fd78f-282c-4415-94f4-c4c08497473d)
+**Try it now without any installation:** [AI Bug Ticket Generator on AI Studio](https://ai.studio/apps/406fd78f-282c-4415-94f4-c4c08497473d?fullscreenApplet=true)
 
 ## 🎯 Why This Tool?
 
