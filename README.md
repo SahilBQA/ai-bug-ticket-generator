@@ -2,6 +2,10 @@
 
 A specialized productivity tool designed for **Quality Assurance Engineers** and **Developers**. This application leverages the power of **Gemini AI** to transform raw, unstructured bug notes, Slack messages, or quick thoughts into professional, industry-standard bug reports in seconds.
 
+## 🔗 Live Demo
+
+**Try it now without any installation:** [AI Bug Ticket Generator on AI Studio](https://ai.studio/apps/406fd78f-282c-4415-94f4-c4c08497473d)
+
 ## 🎯 Why This Tool?
 
 In a fast-paced QA environment, documenting bugs clearly is crucial but time-consuming. This tool bridges the gap between "finding a bug" and "reporting a bug" by automating the structuring process, ensuring that every ticket is clear, actionable, and professional.
