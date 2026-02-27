@@ -1,0 +1,5 @@
+{
+  "name": "AI Bug Ticket Generator",
+  "description": "Transform messy bug reports into professional, structured bug tickets using Gemini AI.",
+  "requestFramePermissions": []
+}
