@@ -21,13 +21,13 @@ export function InputSection({ input, setInput, loading, generateTicket, error }
         </p>
       </div>
 
-      <div className="bg-slate-100/50 p-2 rounded-[32px] border-8 border-slate-200/30">
+      <div className="bg-slate-100/50 p-1.5 sm:p-2 rounded-[24px] sm:rounded-[32px] border-4 sm:border-8 border-slate-200/30">
         <div className="relative group">
           <textarea
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder="Example: The login button is broken on Safari. It just spins forever when I click it. I expected to see the dashboard. I'm on version 2.1..."
-            className="w-full h-64 p-5 bg-white border border-slate-200 rounded-2xl shadow-sm focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 outline-none transition-all resize-none text-sm leading-relaxed placeholder:text-slate-300"
+            className="w-full h-48 sm:h-64 p-4 sm:p-5 bg-white border border-slate-200 rounded-xl sm:rounded-2xl shadow-sm focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 outline-none transition-all resize-none text-sm leading-relaxed placeholder:text-slate-300"
           />
           <div className="absolute bottom-4 right-4 flex items-center gap-2">
             <span className="text-[10px] font-medium text-slate-400 uppercase tracking-wider">

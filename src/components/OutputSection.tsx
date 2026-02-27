@@ -13,7 +13,7 @@ interface OutputSectionProps {
 export function OutputSection({ ticket, loading, copyAll, copiedField }: OutputSectionProps) {
   return (
     <section className="lg:col-span-7">
-      <div className="bg-slate-100 p-4 rounded-[40px] h-full">
+      <div className="bg-slate-100 p-2 sm:p-4 rounded-[32px] sm:rounded-[40px] h-full">
         <AnimatePresence mode="wait">
           {!ticket && !loading ? (
             <motion.div 
@@ -51,16 +51,16 @@ export function OutputSection({ ticket, loading, copyAll, copiedField }: OutputS
             <motion.div
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="bg-white border border-slate-200 rounded-[32px] shadow-sm overflow-hidden h-full flex flex-col"
+              className="bg-white border border-slate-200 rounded-[24px] sm:rounded-[32px] shadow-sm overflow-hidden h-full flex flex-col"
             >
               {/* Ticket Header */}
-              <div className="p-6 border-b border-slate-100 bg-white flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <div className="px-3 py-1 bg-indigo-100 text-indigo-600 rounded-md text-[10px] font-extrabold uppercase tracking-wider">
+              <div className="p-4 sm:p-6 border-b border-slate-100 bg-white flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+                  <div className="px-2 py-1 bg-indigo-100 text-indigo-600 rounded-md text-[9px] sm:text-[10px] font-extrabold uppercase tracking-wider whitespace-nowrap">
                     BUG TICKET
                   </div>
                   <div className={cn(
-                    "px-3 py-1 rounded-md text-[10px] font-extrabold uppercase tracking-wider",
+                    "px-2 py-1 rounded-md text-[9px] sm:text-[10px] font-extrabold uppercase tracking-wider whitespace-nowrap",
                     ticket?.priority === "High" ? "bg-red-50 text-red-600 border border-red-100" :
                     ticket?.priority === "Medium" ? "bg-amber-50 text-amber-600 border border-amber-100" :
                     "bg-emerald-50 text-emerald-600 border border-emerald-100"
@@ -70,7 +70,7 @@ export function OutputSection({ ticket, loading, copyAll, copiedField }: OutputS
                 </div>
                 <button
                   onClick={copyAll}
-                  className="flex items-center gap-2 px-4 py-2 bg-slate-100 border border-slate-200 rounded-xl text-xs font-bold text-slate-600 hover:bg-slate-200 transition-all active:scale-95"
+                  className="w-full sm:w-auto flex items-center justify-center gap-2 px-4 py-2 bg-slate-100 border border-slate-200 rounded-xl text-xs font-bold text-slate-600 hover:bg-slate-200 transition-all active:scale-95"
                 >
                   {copiedField === "all" ? (
                     <>

@@ -99,7 +99,7 @@ PRIORITY: ${ticket.priority}
     <div className="min-h-screen bg-[#F8FAFC] text-slate-900 font-sans selection:bg-indigo-100">
       <Header />
 
-      <main className="max-w-5xl mx-auto px-6 py-12">
+      <main className="max-w-5xl mx-auto px-6 py-6 sm:py-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           <InputSection 
             input={input}
