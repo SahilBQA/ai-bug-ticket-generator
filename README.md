@@ -53,6 +53,8 @@ In a fast-paced QA environment, documenting bugs clearly is crucial but time-con
 
 I'm a **Quality Assurance Professional** dedicated to ensuring software excellence and building tools that improve the development lifecycle.
 
+I will be adding more features in the future to this application. Stay connected with me on LinkedIn and GitHub!
+
 - **LinkedIn**: [linkedin.com/in/sahilit/](https://www.linkedin.com/in/sahilit/)
 - **GitHub**: [github.com/SahilBQA](https://github.com/SahilBQA)
 
